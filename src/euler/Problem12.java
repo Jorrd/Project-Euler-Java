@@ -2,7 +2,7 @@ package euler;
 
 public class Problem12 {
 	
-	public static void triangleNumbers(){
+	public static int triangleNumbers(){
 		int holder = 0;
 		while(holder < 500){
 			int j = 0;
@@ -10,12 +10,12 @@ public class Problem12 {
 				j = j+i;
 				holder = factorCount(j);
 				if (holder > 500){
-					break;
+					return j;
 				}
 			}
 		}
+		return 0;
 	}
-	
 	
 	public static int factorCount(int x){
 		int count = 0;
@@ -25,7 +25,6 @@ public class Problem12 {
 				count+=2;
 			}
 		}
-		System.out.println(x + " " + count);
 		return count;
 	}
 
