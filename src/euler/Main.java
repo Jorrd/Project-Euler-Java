@@ -19,12 +19,14 @@ public class Main {
 		System.out.println(solutionMessage(10) + Problem10.primeSummation());
 		System.out.println(solutionMessage(11) + Problem11.maxProduct());
 		System.out.println(solutionMessage(12) + Problem12.triangleNumbers());
-		// Needs substringing to the first 10 digits.
 		System.out.println(solutionMessage(13) + Problem13.multiplying());
 		System.out.println(solutionMessage(14) + Problem14.maxSearch());
-		// Do not run this - it takes fucking ages.
-		//System.out.println(solutionMessage(15) + Problem15.findAllPaths(20, 20));
-		
+		System.out.println(solutionMessage(15) + Problem15.getResult());
+		System.out.println(solutionMessage(16) + Problem16.powerSum());
+		System.out.println(solutionMessage(17) + Problem17.sumOfLetters());
+		System.out.println(solutionMessage(18) + Problem18.maxPath());
+		System.out.println(solutionMessage(19) + Problem19.numberSundays());
+		System.out.println(solutionMessage(20) + Problem20.factorialDigitSum());
 		
 		long endTime = System.currentTimeMillis();
 		

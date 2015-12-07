@@ -11,7 +11,7 @@ public class Problem5 {
 		while (numberFound == false){
 			startNumber++;
 			
-			for (int i = 10; i<= 20; i++){
+			for (int i = 11; i<= 20; i++){
 				if (startNumber % i == 0){
 					loopsComplete++;
 				}else{
@@ -19,7 +19,7 @@ public class Problem5 {
 				}
 			}
 			
-			if (loopsComplete < 10){
+			if (loopsComplete < 9){
 				loopsComplete = 0;
 			}else{
 				numberFound = true;
