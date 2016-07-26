@@ -5,7 +5,7 @@ public class Problem18 {
 	public static int maxPath(){
 		
 		int[][] pyramid = {
-				{75},
+		{75},
                 {95,64},
                 {17,47,82},
                 {18,35,87,10},
